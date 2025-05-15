@@ -1,0 +1,12 @@
+$purple: rgb(104, 35, 81);
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba($purple, var(--bs-bg-opacity)) !important;
+}
+
+.scores {
+    background-color: rgb(173, 216, 230);
+    border-radius: 15px;
+    padding: 1%;
+}

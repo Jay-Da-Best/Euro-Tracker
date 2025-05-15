@@ -1,0 +1,50 @@
+$purple: rgb(104, 35, 81);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba($purple, var(--bs-bg-opacity)) !important;
+}
+
+.mobile-hide {
+    @media (max-width: 576px) {
+        display: none;
+    }
+}
+
+.mobile-50 {
+    @media (max-width: 576px) {
+        width: 50%;
+    }
+}
+
+.mobile-m {
+    @media (max-width: 576px) {
+        margin-left: 1rem;
+    }
+}
+
+.desktop-m {
+    @media (min-width: 577px) {
+        margin-left: 10%;
+    }
+}
+
+footer h1 {
+    @media (max-width: 576px) {
+        font-size: 1.25rem;
+    }
+}
+
+footer p {
+    @media (max-width: 576px) {
+        font-size: 0.9rem;
+    }
+}
+
+footer a {
+    @media (max-width: 576px) {
+        font-size: 50%;
+    }
+}

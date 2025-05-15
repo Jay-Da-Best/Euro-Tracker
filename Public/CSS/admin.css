@@ -1,0 +1,32 @@
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(104, 35, 81, var(--bs-bg-opacity)) !important;
+}
+
+h1 {
+  grid-column: 1/span 2;
+  grid-row: 1;
+}
+
+.add, .edit, .delete {
+  height: 70%;
+  overflow-y: auto;
+}
+
+.add-container, .edit-container, .delete-container {
+  width: 31.5%;
+}
+
+.form-css {
+  max-height: 73.7vh;
+  height: 100%;
+  overflow: hidden;
+}
+
+.form-bg {
+  height: 65vh;
+  background-color: rgb(173, 216, 230);
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=admin.css.map */

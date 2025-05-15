@@ -1,0 +1,26 @@
+$purple: rgb(104, 35, 81);
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba($purple, var(--bs-bg-opacity)) !important;
+}
+
+.form-bg {
+    padding: 10.4%;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    @media (max-width: 576px) {
+        padding-top: 20vh;
+        padding-bottom: 20vh;
+    }
+}
+
+.form-css {
+    background-color: rgb(173, 216, 230);
+    width: 50%;
+    padding: 1%;
+    border-radius: 15px;
+    @media (max-width: 576px) {
+        width: 100%;
+    }
+}

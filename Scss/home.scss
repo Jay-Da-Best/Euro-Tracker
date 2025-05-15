@@ -1,0 +1,25 @@
+$purple: rgb(104, 35, 81);
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba($purple, var(--bs-bg-opacity)) !important;
+}
+
+header {
+    padding-top: 26rem;
+    padding-bottom: 26rem;
+    @media (max-width: 576px) {
+        padding-top: 25rem;
+        padding-bottom: 25rem;
+    }
+}
+
+.text-box-css {
+    width: 50%;
+    background-color: rgb(173, 216, 230);
+    padding: 1%;
+    border-radius: 15px;
+    @media (max-width: 576px) {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,29 @@
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(104, 35, 81, var(--bs-bg-opacity)) !important;
+}
+
+header {
+  padding-top: 26rem;
+  padding-bottom: 26rem;
+}
+@media (max-width: 576px) {
+  header {
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+  }
+}
+
+.text-box-css {
+  width: 50%;
+  background-color: rgb(173, 216, 230);
+  padding: 1%;
+  border-radius: 15px;
+}
+@media (max-width: 576px) {
+  .text-box-css {
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
